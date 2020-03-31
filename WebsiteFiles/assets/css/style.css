@@ -1,0 +1,194 @@
+.backdrop-signup {
+    z-index: 9999;
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+.signup-model,
+.login-model {
+    z-index: 99998;
+    display: none;
+    position: fixed;
+    left: 25%;
+    right: 25%;
+}
+
+.close-btn {
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .wrapper {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0, .1);
+    padding: 27.5px;
+  }
+  
+  .contact-us {
+    text-align: center;
+    margin: 0 0 30px;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5dc3f2;
+  }
+  
+  .contact form {
+    border: 0;
+  }
+  
+  .contact form label {
+    display: block;
+  }
+  
+  .contact form p {
+    margin: 0;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: rgba(74, 86, 96, 1);
+  }
+  
+  .contact form input, .contact form textarea {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    width: 100%;
+    padding: .4em .8em;
+    background: rgba(249, 250, 250, .5);
+    border: 1px solid rgba(74, 86, 96, .1);
+    border-radius: 2.5px;
+    outline-color: #5dc3f2;
+  }
+  
+  .contact form button {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    background: #5dc3f2;
+    width: 90px;
+    height: 30px;
+    border: 0;
+    border-radius: 15px;
+  }
+  
+  .submit-button {
+    align-self: center;
+    justify-self: end;
+  }
+  
+  .contact form button:hover, .contact form button:focus {
+    background: #49b0e7;
+    color: #fff;
+    outline: 0;
+    transition: background-color 0.3s ease-out;
+  }
+  
+  .required-field {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 200;
+    font-size: 10px;
+    color: rgba(74, 86, 96, 0.75);
+    align-self: center;
+    justify-self: start;
+  }
+  
+  span {
+    color: #5dc3f2;
+  }
+  
+  .alert {
+    margin-bottom: 1em;
+    padding: 10px;
+    background: #49b0e7;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2.5px;
+    display: none;
+  }
+  .main-div {
+    display: block;
+  }
+  .loggedin-div {
+    display: none;
+  }
+  .main-div, .loggedin-div {
+    margin: 0px auto;
+    margin-top: 150px;
+    padding: 20px;
+    background: white;
+  }
+  
+  .main-div input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+  }
+  
+  .main-div input:focus {
+    border: 1px solid #777;
+  }
+  
+  .main-div button, .loggedin-div button {
+    background: #5d8ffc;
+    color: #fff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+  }
+  
+  .main-div button:hover, .loggedin-div button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+    cursor: pointer;
+  }
+
+  @media(max-width: 768px) {
+    .signup-model,
+    .login-model {
+      left: 10%;
+      right: 10%;
+    }
+  }
+
+  @media(max-width: 600px) {
+    .signup-model,
+    .login-model {
+      left: 5%;
+      right: 5%;
+    }
+  }
+  
+  
