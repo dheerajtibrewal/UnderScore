@@ -4,6 +4,8 @@ Project : ARchmate
 
 Theme : AR/XR/VR Urban
 
+**Github issue link : (Pitch and Highlight)** https://github.com/skillenza-com/MishMash-India-2020/issues/90
+
 **To Test Demo App :**
 
 Step1: Downlaod the apk and click on "Guest user".
